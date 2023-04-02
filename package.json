@@ -17,7 +17,7 @@
     "url": "https://github.com/fickryiman/Jest-Testing-Practice/issues"
   },
   "homepage": "https://github.com/fickryiman/Jest-Testing-Practice#readme",
-  "devDependencies": {
+  "dependencies": {
     "jest": "^29.5.0"
   }
 }
