@@ -1,0 +1,23 @@
+{
+  "name": "jest-testing-practice",
+  "version": "1.0.0",
+  "description": "Write a few practical tests for JavaScript functions using the Jest library. Make sure follow the AAA pattern to make this tests easier for other developers to read and understand. Try to use the TDD approach in this practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fickryiman/Jest-Testing-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fickryiman/Jest-Testing-Practice/issues"
+  },
+  "homepage": "https://github.com/fickryiman/Jest-Testing-Practice#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
