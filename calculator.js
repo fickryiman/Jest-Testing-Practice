@@ -1,27 +1,27 @@
 class Calculator {
 
-  add(a, b) {
+  static add(a, b) {
     return a + b;
   }
 
-  subtract(a, b) {
+  static subtract(a, b) {
     return a - b;
   }
 
-  multiply(a, b) {
+  static multiply(a, b) {
     return a * b;
   }
 
-  divide(a, b) {
+  static divide(a, b) {
     return a / b;
   }
 
 };
 
-let compute = new Calculator();
+module.exports = Calculator;
 
-console.log(compute.add(1, 2))
-console.log(compute.subtract(1, 2))
-console.log(compute.multiply(1, 2))
-console.log(compute.divide(1, 2))
-console.log(compute.divide(1, 0))
+// console.log(Calculator.add(1, 2))
+// console.log(Calculator.subtract(1, 2))
+// console.log(Calculator.multiply(1, 2))
+// console.log(Calculator.divide(1, 2))
+// console.log(Calculator.divide(1, 0))
