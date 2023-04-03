@@ -3,8 +3,3 @@ function reverseString(string) {
 };
 
 module.exports = reverseString;
-
-console.log(reverseString('fickry'))
-console.log(reverseString('bil'))
-console.log(reverseString('iman'))
-console.log(reverseString('fickry bil iman'))
